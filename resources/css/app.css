@@ -1,0 +1,101 @@
+@import url('font.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: Nunito;
+}
+
+#app{
+    height: 100%;
+}
+
+button{
+    font-family: Nunito;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.section-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.section-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="password"]{
+    border: 1px solid grey;
+    border-radius: 2px;
+    font-family: Nunito;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.form-section{
+    margin-bottom: 15px;
+}
+
+.form-input{
+    border: 1px solid grey;
+    border-radius: 2px;
+    font-family: Nunito;
+}
+
+.btn{
+    border: none;
+    font-weight: bold;
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn-square{
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.action-button-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-edit{
+    background-color: blue;
+}
+
+.btn-delete{
+    background-color: red;
+}
+
+.error{
+    font-size: 12px;
+    color: red;
+}
